@@ -13,6 +13,7 @@ given 2 strings, can you make first string from the second by deleting some char
 ```
 s1 = "Hello"
 s2 = "vufigsaHudesdflelio"
+
 ```
 
 # Question Three

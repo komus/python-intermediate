@@ -36,3 +36,16 @@ Example 3:
 Input: nums = [3,3], target = 6
     Output: [0,1]
 ```
+
+## Question 4
+Constructor accept a string `_init_`
+
+Methods
+- Get length of string
+- Reverse the string
+- if length > 5: get the first three characters
+- if length > 6: get the last 4 characters
+- Accept int for a user that is less than length of the string and return the character in position [int]
+
+Test
+- Write test for all your methods
