@@ -1,0 +1,92 @@
+{
+    "man city": [
+        {
+            "forwards": [{
+                            "name": "Alvarez",
+                            "number": 21,
+                            "goals": 16,
+                            "assist":7
+                        },
+                        {
+                            "name": "Haaland",
+                            "number": 22,
+                            "goals": 52,
+                            "assist":6
+                        },
+                        {
+                            "name": "Grealish",
+                            "number": 27,
+                            "goals": 6,
+                            "assist":7
+                        }
+                    ]
+        },
+        {
+            "midfields": [{
+                            "name": "Gundogan",
+                            "number": 21,
+                            "goals": 16,
+                            "assist":7
+                        },
+                        {
+                            "name": "Silva",
+                            "number": 22,
+                            "goals": 52,
+                            "assist":6
+                        },
+                        {
+                            "name": "Rodri",
+                            "number": 27,
+                            "goals": 6,
+                            "assist":7
+                        }
+                    ]
+        }
+
+    ],
+    "man u": [
+        {
+            "forwards": [{
+                            "name": "Rashford",
+                            "number": 21,
+                            "goals": 16,
+                            "assist":7
+                        },
+                        {
+                            "name": "Antony",
+                            "number": 22,
+                            "goals": 52,
+                            "assist":6
+                        },
+                        {
+                            "name": "Sancho",
+                            "number": 27,
+                            "goals": 6,
+                            "assist":7
+                        }
+                    ]
+        },
+        {
+            "midfields": [{
+                            "name": "Ericsen",
+                            "number": 21,
+                            "goals": 16,
+                            "assist":7
+                        },
+                        {
+                            "name": "Fred",
+                            "number": 22,
+                            "goals": 52,
+                            "assist":6
+                        },
+                        {
+                            "name": "Casemiro",
+                            "number": 27,
+                            "goals": 6,
+                            "assist":7
+                        }
+                    ]
+        }
+
+    ]
+}
