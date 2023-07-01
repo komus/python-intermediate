@@ -2,6 +2,11 @@
 
 https://github.com/komus/python-intermediate
 
+## Break time
+10.00 - 10.10
+11.00 - 11.10
+12.00 - 12.30
+
 ## Day 1 - 5 hrs
 -  1 hr Exercise on classes, functions and test
 - Exceptions

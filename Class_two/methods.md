@@ -13,3 +13,15 @@
 - To call a class method, use class.methodname. You dont create an object of the class
 
 ## Static method
+- It cannot access instance or class data, it is only bound to the class - it is within a class
+- Has no idea about the instance or the class they are called on
+- marked with @staticmethod decorator
+- does not a specific first parameter
+- It is usually used as a utility method that is related to the class
+
+
+# Class Ordering
+- Class definition
+- class variables
+- constructor
+- methods   

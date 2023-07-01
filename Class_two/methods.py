@@ -30,6 +30,9 @@ class DoSomething:
 
 
 class Weight:
+    #class variable
+    class_data = 10
+
     def __init__(self, kilos, height):
         self.kilos = kilos
         self.height = height
@@ -39,17 +42,27 @@ class Weight:
 
     @classmethod
     def convert_to_pounds(cls, kilos):
+        print(f"accessing class vaiable {cls.class_data}")
         return kilos * 2.205
 
     @classmethod
     def convert_to_kilos(cls, pounds):
+        print(f"accessing class vaiable {cls.class_data}")
         return pounds / 2.205
+
+    @staticmethod
+    def info():
+        print(f"accessing class vaiable {class_data}")
+        print("This class computes BMI, conversion from kg to pounds is kilos * 2.205")
 
 d_weight = Weight(70, 1.5)
 print(d_weight.bmi())
 
 k_weight = Weight(55, 1.7)
 print(k_weight.bmi())
+print(k_weight.class_data)
 
 print(Weight.convert_to_pounds(70))
+
+Weight.info()
 
