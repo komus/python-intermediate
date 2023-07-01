@@ -52,7 +52,7 @@ class Weight:
 
     @staticmethod
     def info():
-        print(f"accessing class vaiable {class_data}")
+        #print(f"accessing class vaiable {class_data}")
         print("This class computes BMI, conversion from kg to pounds is kilos * 2.205")
 
 d_weight = Weight(70, 1.5)

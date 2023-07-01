@@ -24,7 +24,7 @@ class Book:
 class BookDS:
     name:str
     author:str
-    year:int
+    year:int = 2020
 
     def is_new_book(self, current_year:int):
 
