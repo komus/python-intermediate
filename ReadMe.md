@@ -22,3 +22,12 @@ https://docs.python.org/3/library/abc.html
 - Data class
 - Deep copy
 - Serialization
+
+## Day 3 - 5 hrs
+- Decorators
+- Context Manager
+
+## Day 4 - 5 hrs
+- Lambda expressions
+- Generator and iterators
+- Regular expressions
