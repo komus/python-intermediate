@@ -5,14 +5,14 @@
 
 - Eg logging, test performance, cache, verify permissions, decimal places of floating numbers
 
-# building blocks for decorator
+## building blocks for decorator
 - A funtion is an instance of the object type i.e a function is an object because we can store a function in a variable
 - A function can be passed as an argument to another function
 - A function can be nested within another function
 - A nested function can be returned
 
 
-# syntax for a decorator
+## syntax for a decorator
 
 ```python
     def decorator_function_name(func):
@@ -28,3 +28,17 @@ To use the decorator syntax
     def my_function():
         pass
 ```
+
+# Decorators with arguments
+To create a decorator that gets an arguments, you need to create a function that returns a decorator, rather than writing the decorator directly
+
+```python
+    def function_that_returns_decorator(**arguments):
+        def decorator_function_name(func):
+            def wrapper_func():
+                /// Do something(s)
+
+            return wrapper_func
+        return decorator_function_name
+```
+
