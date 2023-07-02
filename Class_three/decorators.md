@@ -42,3 +42,18 @@ To create a decorator that gets an arguments, you need to create a function that
         return decorator_function_name
 ```
 
+# Chaining Decorators
+- can apply more than 1 decorator to a function
+- Apply it from bottom to top - most inner decorator is applied first
+
+```python
+@docorator1
+@decorator2
+def function():
+    pass
+
+
+function()
+```
+
+This means `decorator1(decorator2(function))`
