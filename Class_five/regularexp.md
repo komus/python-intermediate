@@ -50,3 +50,20 @@ This will try to match the regex pattern to the string. In match, this only chec
 
 #### re.search
 Does not limit the match to the beginning of the string. It can locate a match anywhere in the string. It looks for the first location where the pattern produces a match with the string
+
+#### re.findall
+
+returns all occurences / non-overlapping matches. 
+
+
+#### re.split
+
+this splits a string by the occurrence of the pattern. 
+
+#### re.sub
+
+This replaces the occurence of the pattern in the string. It will replace all occurrence unless the max is provided.
+
+#### re.subn
+
+similar to the sub, it returns a tuple of the new string and the number of substitutions made
