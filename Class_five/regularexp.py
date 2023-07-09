@@ -76,8 +76,27 @@ pattern = r"(?:[0-9a-fA-F])+"
 
 
 """
-- Extract Email
-- Extract date in format YYYY-MM-DD
-- strong password
-- 
+- Extract Email \b[A-Za-z0-9._]+@[A-Za-z0-9]+\.[.A-Z|a-z]{2,}\b
+- Extract date in format YYYY-MM-DD \b\d{4}[-|/]\d{2}[-|/]\d{2}\b  \b\d{4}[-/\.]\d{2}[-/\.]\d{2}\b
+- strong password: minimum of 8 characters, has at least 1 uppercase, at least one digit and special character
+- ^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#%^*|])[A-Za-z\d$@_\-\.#!%&]{8,}$
 """
+
+pattern_p = r"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#%^*|])[A-Za-z\d$@_\-\.#!%&]{8,}$"
+string = "P@ssw0rd!"
+
+valid_password = re.search(pattern_p, string)
+if valid_password:
+    print("Valid")
+else:
+    print("not valid")
+
+
+string = "oy@example.com find@all.co.uk are the emails available"
+pattern = r"\b[A-Za-z0-9._]+@[A-Za-z0-9]+\.[.A-Z|a-z]{2,}\b"
+all_email = re.findall(pattern, string)
+print(all_email)
+
+list_1 = ['password', 'Passw0rd12!', 'Passw0rd']
+val = [True if re.search(pattern_p, val) else False for val in list_1]
+print(val)
