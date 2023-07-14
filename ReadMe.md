@@ -30,4 +30,7 @@ https://docs.python.org/3/library/abc.html
 ## Day 4 - 5 hrs
 - Lambda expressions
 - Generator and iterators
-- Regular expressions
+
+## Day 5 - 6 Hrs
+- regular expression
+- multithreading
