@@ -33,4 +33,11 @@ https://docs.python.org/3/library/abc.html
 
 ## Day 5 - 6 Hrs
 - regular expression
-- multithreading
+
+## Day 6 
+- Multithreading
+- Multiprocessing
+- Code Profiling 
+- Encapsulation
+- Revision of Topics => decorators
+
